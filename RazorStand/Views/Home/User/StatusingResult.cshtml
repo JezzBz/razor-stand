@@ -1,0 +1,31 @@
+@{
+    Layout = "Layout";
+}
+@using Microsoft.Extensions.Options
+@using RazorStand
+
+@model VJeek.Fartsa.Emailing.Host.Models.Generation.User.StatusingResult
+@inject IOptions<MailConfigOptions> MailConfig
+
+<p class="hello">Добрый день! Готов результат проверки вашей организации «@Model.User?.Name»</p>
+@if (Model.Success)
+{
+	<p>
+		Рады сообщить, что заявка на регистрацию в системе <strong>@MailConfig.Value.ProjectName Business</strong> была одобрена.<br/> 
+		Нажмите на кнопку, чтобы завершить регистрацию:</p>
+		<br/>
+	<a href=@Model.Url target="_blank">Завершить регистрацию</a>
+}
+else{
+	<p>
+		К сожалению ваша заявка на регистрацию в системе <strong>@MailConfig.Value.ProjectName Business</strong> была отклонена.<br/>
+	</p>
+	<p>Причина:
+			@Model.Message
+	</p>
+	
+	<p>
+		В случае, если вы не согласны с принятым решением, вы можете обратиться в тех. поддержку <a href = mailto:@MailConfig.Value.SupportMail>@MailConfig.Value.SupportMail</a>  
+	</p>
+}
+

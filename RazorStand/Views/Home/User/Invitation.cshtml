@@ -1,0 +1,43 @@
+@{
+    Layout = "Layout";
+}
+
+@using Microsoft.Extensions.Options
+@using RazorStand
+
+
+@model VJeek.Fartsa.Emailing.Host.Models.Generation.User.Invitation;
+@inject IOptions<MailConfigOptions> MailConfig
+
+<p class="hello">Здравствуйте!</p>
+<p class="main-text text-center">
+	@Model.BusinessName приглашает Вас к участию в промоакции "@Model.PromoactionTitle"
+</p>
+
+<table class="spacer">
+	<tbody>
+	<tr>
+		<td height="24px" style="font-size:24px;line-height:24px;">&#xA0;</td>
+	</tr>
+	</tbody>
+</table>
+<a href="@Model.Link" target="_blank">Перейти на платформу</a>
+<p>
+	Приглашение будет отправлено Вам в виде уведомления в системе Fartsa. 
+</p>
+
+<table class="spacer">
+	<tbody>
+	<tr>
+		<td height="12px" style="font-size:24px;line-height:24px;">&#xA0;</td>
+	</tr>
+	</tbody>
+</table>
+
+<p>
+	В случае, если вы не получили приглашение, проверьте, подтверждена ли почта в вашем профиле.
+</p>
+
+<p>
+	Тех. поддержка: <a href = mailto:@MailConfig.Value.SupportMail>@MailConfig.Value.SupportMail</a>  
+</p>

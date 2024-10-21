@@ -1,0 +1,37 @@
+@{
+    Layout = "Layout";
+}
+@using Microsoft.Extensions.Options
+@using RazorStand
+@model VJeek.Fartsa.Emailing.Host.Models.Generation.User.EmailConfirmation
+@inject IOptions<MailConfigOptions> MailConfig
+
+<p class="hello">Здравствуйте, @Model.User?.Name !</p>
+<p class="welcome">
+    Добро пожаловать в <strong>@MailConfig.Value.ProjectName</strong>. Нажмите на кнопку, чтобы
+    <br/>
+    подтвердить ваш email:
+</p>
+
+<table class="button rounded">
+    <tbody>
+    <tr>
+        <td>
+            <table>
+                <tbody>
+                <tr>
+                    <td>
+                        @Model.Code
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="@Model.ConfirmationUrl" target="_blank">Подтвердить электронную почту</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "suArhZpLvE+8GNxnBstDcD89AbK8ndT90ZOTI783Sgg=",
+  "Hash": "J0RT111h0wXgIn1ks1wO6tvka0xIydECgVAhAEmQabY=",
   "Source": "RazorStand",
   "BasePath": "_content/RazorStand",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RazorStand.styles.css",
-      "SourceId": "RazorStand",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/RazorStand",
-      "RelativePath": "RazorStand.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RazorStand.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RazorStand.bundle.scp.css",
-      "SourceId": "RazorStand",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/RazorStand",
-      "RelativePath": "RazorStand.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RazorStand.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\wwwroot\\css\\site.css",
       "SourceId": "RazorStand",

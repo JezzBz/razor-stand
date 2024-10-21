@@ -1,8 +1,13 @@
+using RazorStand;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Configuration.AddJsonFile("appsettings.json")
+    .AddEnvironmentVariables();
+builder.Services.AddOptions<MailConfigOptions>()
+    .BindConfiguration(MailConfigOptions.Key);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

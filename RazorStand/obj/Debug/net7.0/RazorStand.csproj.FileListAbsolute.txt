@@ -20,11 +20,11 @@ C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\staticwebas
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\scopedcss\bundle\RazorStand.styles.css
-C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\scopedcss\projectbundle\RazorStand.bundle.scp.css
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\RazorStand.dll
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\refint\RazorStand.dll
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\RazorStand.pdb
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\RazorStand.genruntimeconfig.cache
 C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\ref\RazorStand.dll
+C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Bogdan\RiderProjects\RazorStand\RazorStand\obj\Debug\net7.0\RazorStand.csproj.CopyComplete

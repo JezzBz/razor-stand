@@ -1,0 +1,12 @@
+@{
+	Layout = "Layout";
+}
+@using Microsoft.Extensions.Options
+@using RazorStand
+@model VJeek.Fartsa.Emailing.Host.Models.Generation.User.RegistrationRequest
+@inject IOptions<MailConfigOptions> MailConfig
+<p class="hello">Здравствуйте</p>
+<p>
+	Мы получили вашу заявку на регистрацию «@Model.User?.Name» в платформе @MailConfig.Value.ProjectName Business и рады сообщить, что она была принята в работу.<br/> Спасибо за проявленный интерес к нашим услугам.
+	Решение по вашей заявке будет принято в течении 30 дней.<br/> Мы свяжемся с вами по электронной почте, чтобы сообщить о результатах рассмотрения заявки.
+</p>

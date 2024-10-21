@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FjLqLbcag+1SDoVZ1k3x1TFovu8Ybk+30w/MjbQ1Y11HO/OpfzxLi+I9wO37k+sR6qcwR59Hr6oehJiBGDQXUQ==",
+  "dgSpecHash": "pTnjlCzH0UqxLps96SIIAkMC7JC/pzZvc5+zU4x2EDpWIUclTPY+eOAe5yLj9NG4E4iyQbIRNhAmPjhezzi7jQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bogdan\\RiderProjects\\RazorStand\\RazorStand\\RazorStand.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Bogdan\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
