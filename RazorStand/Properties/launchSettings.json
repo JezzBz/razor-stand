@@ -20,7 +20,8 @@
         "MailConfig__UsersRemovalServiceMail": "remove.me@fartsa.com",
         "MailConfig__PublicMail": "hello@fartsa.com",
         "MailConfig__LogoUrl": "https://media.fartca.dev/static/web/images/logo.png",
-        "MailConfig__ProjectName": "fartsa"
+        "MailConfig__ProjectName": "fartsa",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       }
     }
   }

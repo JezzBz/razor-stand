@@ -6,6 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Configuration.AddJsonFile("appsettings.json")
     .AddEnvironmentVariables();
+
+builder.Services.AddRazorPages()
+    .AddRazorRuntimeCompilation();
+
 builder.Services.AddOptions<MailConfigOptions>()
     .BindConfiguration(MailConfigOptions.Key);
 var app = builder.Build();
